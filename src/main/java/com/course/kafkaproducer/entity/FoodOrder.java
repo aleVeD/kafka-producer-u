@@ -15,6 +15,11 @@ public class FoodOrder {
                 '}';
     }
 
+    public FoodOrder(int amount, String item) {
+        this.amount = amount;
+        this.item = item;
+    }
+
     public int getAmount() {
         return amount;
     }
